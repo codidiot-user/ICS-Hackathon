@@ -1,0 +1,5 @@
+file,expected_transcript,expected_operation,expected_parameters
+A01_quiet_logesh.wav,"configure interface gigabit ethernet zero slash one with ip 192.0.2.10 slash 24 and enable it",configure_interface,"{""interface"": ""GigabitEthernet0/1"", ""ip_address"": ""192.0.2.10"", ""prefix"":24,""admin_state"": ""up""}"
+A02_quiet_logesh.wav,"Configure interface Gigabit Ethernet zero slash one with IP 192.0.2.10 slash 24 and enable it",configure_interface,"{""interface"": ""GigabitEthernet0/1"", ""ip_address"": ""192.0.2.10"", ""prefix"":24,""admin_state"": ""up""}"
+A03_quiet_logesh.wav,"Set Gigabit Ethernet zero slash two to 203.0.113.5 slash 24 and bring it up",configure_interface,"{""interface"": ""GigabitEthernet0/2"", ""ip_address"": ""203.0.113.5"", ""prefix"":24,""admin_state"": ""up""}"
+A04_quiet_logesh.wav,"Configure gi zero slash three with IP 198.51.100.30 slash 25 and turn it on",configure_interface,"{""interface"": ""GigabitEthernet0/3"", ""ip_address"": ""198.51.100.30"", ""prefix"":25,""admin_state"": ""up""}"
